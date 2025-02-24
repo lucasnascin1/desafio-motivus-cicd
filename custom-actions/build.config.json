@@ -1,0 +1,19 @@
+{
+  "build": {
+    "outputDir": "dist/",
+    "entryFile": "src/index.js",
+    "minify": true,
+    "sourcemaps": false
+  },
+  "lint": {
+    "enabled": true,
+    "configFile": ".eslintrc.json"
+  },
+  "sonarqube": {
+    "enabled": true,
+    "projectKey": "my_project",
+    "organization": "my_org",
+    "hostUrl": "https://sonarcloud.io"
+  }
+}
+
