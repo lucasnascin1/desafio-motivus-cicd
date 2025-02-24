@@ -51,6 +51,8 @@ jobs:
     environment:
       name: production
       url: https://myapp.com
+      reviewers:
+        - your-github-username
     steps:
       - name: Request approval before deployment
         run: echo "Waiting for approval before deployment..."
