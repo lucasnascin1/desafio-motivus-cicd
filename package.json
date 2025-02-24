@@ -1,0 +1,16 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "Projeto de exemplo com CI/CD usando GitHub Actions",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.3",
+    "webpack": "^5.88.2"
+  }
+}
